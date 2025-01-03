@@ -46,7 +46,7 @@ export default function Navbar (props) {
         <List>
 
           <ListItem disablePadding>
-            <ListItemButton component={Link} to="/" selected={"/" === path} onClick={changeOpenStatus}>
+            <ListItemButton component={Link} to="/home" selected={"/home" === path} onClick={changeOpenStatus}>
               <ListItemIcon>
                 <HomeIcon />
               </ListItemIcon>

@@ -19,7 +19,7 @@ function App() {
         drawerWidth={myWidth}
         content={
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/photos" element={<Photos />} />
             <Route path="/contact" element={<Contact />} />
