@@ -1,0 +1,10 @@
+.form-group{
+    position:relative;
+    margin-bottom: 1.2rem;
+}
+.form-control{
+    font-size: 14px;
+    font-family: Montserrat;
+    border: 1px solid #05010f;
+    opacity:0.8;
+}
